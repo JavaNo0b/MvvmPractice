@@ -5,12 +5,12 @@ plugins {
 
 android {
     namespace = "com.janob.mvvminstagram"
-    compileSdk = 33
+    compileSdk = 34
 
     defaultConfig {
         applicationId = "com.janob.mvvminstagram"
         minSdk = 29
-        targetSdk = 33
+        targetSdk = 34
         versionCode = 1
         versionName = "1.0"
 
