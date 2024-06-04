@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "845819946856",
+    "project_id": "mvvminstagram-75eca",
+    "storage_bucket": "mvvminstagram-75eca.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:845819946856:android:21fd08f19d4bed67c058dd",
+        "android_client_info": {
+          "package_name": "com.janob.mvvminstagram"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyATLVkBc8sdhFr9ohBDUqvQw2hZVB1ZFoA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

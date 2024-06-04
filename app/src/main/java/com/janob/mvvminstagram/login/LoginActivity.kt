@@ -3,9 +3,11 @@ package com.janob.mvvminstagram.login
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.widget.Toast
 import androidx.activity.viewModels
 import androidx.databinding.DataBindingUtil
 import androidx.lifecycle.ViewModelProvider
+import com.google.firebase.auth.FirebaseAuth
 import com.janob.mvvminstagram.R
 import com.janob.mvvminstagram.databinding.ActivityLoginBinding
 
@@ -14,11 +16,11 @@ class LoginActivity : AppCompatActivity() {
     val loginViewModel: LoginViewModel by viewModels()
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+
         binding = DataBindingUtil.setContentView(this, R.layout.activity_login)
         binding.viewModel = loginViewModel
         binding.activity = this
         binding.lifecycleOwner = this
-
         setObserve()
     }
 
@@ -38,10 +40,7 @@ class LoginActivity : AppCompatActivity() {
         }
     }
 
-    fun loginEmail(){
-        println("Email")
-        loginViewModel.showInputNumberActivity.value = true
-    }
+
 
     fun findId(){
         println("findId")
