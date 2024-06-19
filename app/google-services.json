@@ -12,7 +12,20 @@
           "package_name": "com.janob.mvvminstagram"
         }
       },
-      "oauth_client": [],
+      "oauth_client": [
+        {
+          "client_id": "845819946856-k0kjbuj3msd37qg9bcjt6vp7dchrhrdd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.janob.mvvminstagram",
+            "certificate_hash": "c809c8a70bd9dcb695d6e23fca70f0dad894ffd7"
+          }
+        },
+        {
+          "client_id": "845819946856-8ljaqmr390cldag0l66evko6limbacbk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
       "api_key": [
         {
           "current_key": "AIzaSyATLVkBc8sdhFr9ohBDUqvQw2hZVB1ZFoA"
@@ -20,7 +33,12 @@
       ],
       "services": {
         "appinvite_service": {
-          "other_platform_oauth_client": []
+          "other_platform_oauth_client": [
+            {
+              "client_id": "845819946856-8ljaqmr390cldag0l66evko6limbacbk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
         }
       }
     }

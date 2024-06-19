@@ -1,6 +1,8 @@
 <resources>
     <string name="app_name">MvvmInstagram</string>
 
+    <string name="default_client_id">845819946856-8ljaqmr390cldag0l66evko6limbacbk.apps.googleusercontent.com</string>
+
 
     <!--    hawlstagram Color-->
 
